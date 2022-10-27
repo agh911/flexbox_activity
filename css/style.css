@@ -1,0 +1,126 @@
+/* RESET */
+
+* {
+    margin: 2px;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.logo {
+    background-image: url(../images/jakes-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 225px;
+}
+
+/* NAV BAR */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    background-color: #0f0e17;
+    padding: 15px 80px;
+}
+
+.center a {
+    text-decoration: none;
+    color: #fffffe;
+    padding: 10px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.left button {
+    background-color: #abd1c6;
+}
+
+.right button {
+    background-color: #f9bc60;
+}
+
+/* MENU SECTION */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.meal1 {
+    background-image: url(../images/steak.png);
+}
+
+.meal2 {
+    background-image: url(../images/soup.png);
+}
+
+.meal3 {
+    background-image: url(../images/cheesecake.png);
+    margin-bottom: 20px;
+}
+
+.meal1, .meal2, .meal3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fffffe;
+    padding: 40px;
+    margin: 0;
+}
+
+.text h1 {
+    padding-bottom: 15px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #0f0e17;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+.fb {
+    color: #3da9fc;
+}
+
+.tw {
+    color: #f9bc60;
+}
+
+.ig {
+    color: #e53170;
+}
